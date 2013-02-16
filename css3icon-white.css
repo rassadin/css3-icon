@@ -1,15 +1,26 @@
 /*
+<<<<<<< HEAD
 	Copyright 2013 Nikolai Rassadin <rassadin@gmail.com>
 	 All resources are licensed under CC BY-NC-SA 3.0
 */
 #css3icon {
 	outline:solid 1px transparent;
 	display:block;
+=======
+ Copyright 2013 Nikolai Rassadin <rassadin@gmail.com>
+ Licensed under CC BY-SA 3.0
+*/
+#css3icon {
+	outline:solid 1px transparent;
+	display:inline-block;
+	position:relative;
+>>>>>>> gh-pages
 	height:0.8em; width:0.8em;
 	background:transparent;
 	color:transparent;
 	line-height:0em;
 	box-shadow:
+<<<<<<< HEAD
 		0.8em  0 0 #fff,
 		1.4em  0 0 #fff,
 		2em 0 0 #fff,
@@ -31,6 +42,29 @@
 		transform: skewX(-12deg);
 		-webkit-transform: skewX(-12deg);
 		-ms-transform: skewX(-12deg);	
+=======
+	0.8em  0 0 #fff,
+	1.4em  0 0 #fff,
+	2em 0 0 #fff,
+	2.6em 0 0 #fff,
+	3.2em 0 0 #fff,
+	3.6em 0 0 #fff,
+	4em 0 0 #fff,
+	4em 0.65em 0 #fff,
+	0.8em 1.3em 0 #fff,
+	1.4em 1.3em 0 #fff,
+	2em 1.3em 0 #fff,
+	2.6em 1.3em 0 #fff,
+	3.2em 1.3em 0 #fff,
+	3.6em 1.3em 0 #fff,
+	4em 1.3em 0 #fff,
+	4em 1.9em 0 #fff,
+	0.8em 2.6em 0 #fff,
+	4em 2.6em 0 #fff;
+	transform: skewX(-12deg);
+	-webkit-transform: skewX(-12deg);
+	-ms-transform: skewX(-12deg);	
+>>>>>>> gh-pages
 }
 #css3icon:before {
 	position:absolute;
@@ -39,6 +73,7 @@
 	height:0.8em; width:2em;
 	margin:3.4em 0 0 0.8em;
 	background:#fff;
+<<<<<<< HEAD
 	xbackground:linear-gradient(162deg,#fff 30%,#15b 100%);
 	transform: skew(-1deg,18.4deg);	
     transform-origin: 100% 100%;
@@ -47,6 +82,15 @@
     -ms-transform: skew(-1deg,18.4deg);	
     -ms-transform-origin: 100% 100%;
     border-right:solid 1px #fff;
+=======
+	transform: skew(-1deg,18.4deg);	
+	transform-origin: 100% 100%;
+	-webkit-transform: skew(-1deg,18.4deg);	
+	-webkit-transform-origin: 100% 100%;
+	-ms-transform: skew(-1deg,18.4deg);	
+	-ms-transform-origin: 100% 100%;
+	border-right:solid 1px #fff;
+>>>>>>> gh-pages
 }
 #css3icon:after {
 	position:absolute;
@@ -55,6 +99,7 @@
 	height:0.8em; width:2em;
 	margin:3.4em 0 0 2.8em;
 	background:#fff;
+<<<<<<< HEAD
 	xbackground:linear-gradient(198deg,#fff 30%,#15b 100%);
 	transform: skew(1deg,-18.4deg);	
     transform-origin: 0% 100%;
@@ -62,4 +107,12 @@
     -webkit-transform-origin: 0 100%;
     -ms-transform: skew(1deg,-18.4deg);	
     -ms-transform-origin: 0 100%;	
+=======
+	transform: skew(1deg,-18.4deg);	
+	transform-origin: 0% 100%;
+	-webkit-transform: skew(1deg,-18.4deg);	
+	-webkit-transform-origin: 0 100%;
+	-ms-transform: skew(1deg,-18.4deg);	
+	-ms-transform-origin: 0 100%;	
+>>>>>>> gh-pages
 }
