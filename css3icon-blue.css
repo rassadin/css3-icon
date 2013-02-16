@@ -9,26 +9,27 @@
 	height:0.8em; width:0.8em;
 	background:transparent;
 	color:transparent;
-	line-height:0em;
+	line-height:0.8em;
+	overflow:visible;
 	box-shadow:
-	0.8em  0 0 #38c,
-	1.4em  0 0 #38c,
-	2em 0 0 #38c,
-	2.6em 0 0 #38c,
-	3.2em 0 0 #38c,
-	3.6em 0 0 #38c,
-	4em 0 0 #38c,
-	4em 0.65em 0 #38c,
-	0.8em 1.3em 0 #38c,
-	1.4em 1.3em 0 #38c,
-	2em 1.3em 0 #38c,
-	2.6em 1.3em 0 #38c,
-	3.2em 1.3em 0 #38c,
-	3.6em 1.3em 0 #38c,
-	4em 1.3em 0 #38c,
-	4em 1.9em 0 #38c,
-	0.8em 2.6em 0 #38c,
-	4em 2.6em 0 #38c;
+		0.8em  0 0 #38c,
+		1.4em  0 0 #38c,
+		2em 0 0 #38c,
+		2.6em 0 0 #38c,
+		3.2em 0 0 #38c,
+		3.6em 0 0 #38c,
+		4em 0 0 #38c,
+		4em 0.65em 0 #38c,
+		0.8em 1.3em 0 #38c,
+		1.4em 1.3em 0 #38c,
+		2em 1.3em 0 #38c,
+		2.6em 1.3em 0 #38c,
+		3.2em 1.3em 0 #38c,
+		3.6em 1.3em 0 #38c,
+		4em 1.3em 0 #38c,
+		4em 1.9em 0 #38c,
+		0.8em 2.6em 0 #38c,
+		4em 2.6em 0 #38c;
 	transform: skewX(-12deg);
 	-webkit-transform: skewX(-12deg);
 	-ms-transform: skewX(-12deg);	
@@ -60,5 +61,5 @@
 	-webkit-transform: skew(1deg,-18.4deg);	
 	-webkit-transform-origin: 0 100%;
 	-ms-transform: skew(1deg,-18.4deg);	
-	-ms-transform-origin: 0 100%;	
+	-ms-transform-origin: 0 100%;
 }
