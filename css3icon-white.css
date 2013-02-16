@@ -1,0 +1,65 @@
+/*
+	Copyright 2013 Nikolai Rassadin <rassadin@gmail.com>
+	 All resources are licensed under CC BY-NC-SA 3.0
+*/
+#css3icon {
+	outline:solid 1px transparent;
+	display:block;
+	height:0.8em; width:0.8em;
+	background:transparent;
+	color:transparent;
+	line-height:0em;
+	box-shadow:
+		0.8em  0 0 #fff,
+		1.4em  0 0 #fff,
+		2em 0 0 #fff,
+		2.6em 0 0 #fff,
+		3.2em 0 0 #fff,
+		3.6em 0 0 #fff,
+		4em 0 0 #fff,
+		4em 0.65em 0 #fff,
+		0.8em 1.3em 0 #fff,
+		1.4em 1.3em 0 #fff,
+		2em 1.3em 0 #fff,
+		2.6em 1.3em 0 #fff,
+		3.2em 1.3em 0 #fff,
+		3.6em 1.3em 0 #fff,
+		4em 1.3em 0 #fff,
+		4em 1.9em 0 #fff,
+		0.8em 2.6em 0 #fff,
+		4em 2.6em 0 #fff;
+		transform: skewX(-12deg);
+		-webkit-transform: skewX(-12deg);
+		-ms-transform: skewX(-12deg);	
+}
+#css3icon:before {
+	position:absolute;
+	content:''; 
+	display:block;
+	height:0.8em; width:2em;
+	margin:3.4em 0 0 0.8em;
+	background:#fff;
+	xbackground:linear-gradient(162deg,#fff 30%,#15b 100%);
+	transform: skew(-1deg,18.4deg);	
+    transform-origin: 100% 100%;
+    -webkit-transform: skew(-1deg,18.4deg);	
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform: skew(-1deg,18.4deg);	
+    -ms-transform-origin: 100% 100%;
+    border-right:solid 1px #fff;
+}
+#css3icon:after {
+	position:absolute;
+	content:''; 
+	display:block;
+	height:0.8em; width:2em;
+	margin:3.4em 0 0 2.8em;
+	background:#fff;
+	xbackground:linear-gradient(198deg,#fff 30%,#15b 100%);
+	transform: skew(1deg,-18.4deg);	
+    transform-origin: 0% 100%;
+    -webkit-transform: skew(1deg,-18.4deg);	
+    -webkit-transform-origin: 0 100%;
+    -ms-transform: skew(1deg,-18.4deg);	
+    -ms-transform-origin: 0 100%;	
+}
